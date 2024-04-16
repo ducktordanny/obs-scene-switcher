@@ -17,7 +17,7 @@ func printScenes(client *goobs.Client) {
 	}
 	scenes := sceneList.Scenes
 	for _, scene := range scenes {
-		fmt.Println(scene.SceneIndex, scene.SceneName)
+		fmt.Println(scene.SceneName)
 	}
 }
 
